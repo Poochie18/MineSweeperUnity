@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5355304035634457553}
   - component: {fileID: 5355304035634457552}
   - component: {fileID: 4894103393571462606}
+  - component: {fileID: 329675112439435571}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -122,3 +123,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4f74fe462aa2b43ad76ffa588d5ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &329675112439435571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355304035634457551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83b9abdf5cc89848a6baec10b650a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  def: {fileID: 0}
+  emptyTiles: []
+  mine: {fileID: 0}
+  height: 0
+  weight: 0
+  isMine: 0
